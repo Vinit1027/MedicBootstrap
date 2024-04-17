@@ -1,0 +1,674 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #777777;
+    line-height: 1.8em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto", sans-serif;
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+
+/* HEADER TOP */
+
+
+
+.padbetween{
+    background: #ffffff;
+    border-bottom: 1px solid #ececec;
+}
+
+
+/* .container{
+    padding-left: 96px;
+    padding-right: 96px;
+} */
+
+
+
+.ophrs h6{
+    margin: 0;
+    padding:0;
+    font-size: 15px;
+    line-height: 26px;
+    color: #777777;
+    font-weight: 400;
+    padding: 14px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.socal a{
+    padding: 8px;
+    border: 1px solid #ececec;
+    transition-duration: 0.25s;
+}
+
+
+.socal i{
+    line-height: 40px;
+    /* margin: -1px; */
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    font-weight: 400;
+    transition-duration: 0.25s;
+    /* border: 1px solid #ececec; */
+}
+
+
+.socal a:hover i{
+    color:#6f42c1;
+
+}
+
+.socal a:hover{
+    border: 1px solid #6f42c1;
+}
+
+
+
+
+
+/* SECTION HEADER UPPER */
+
+
+
+
+
+
+.padbetween2{
+    padding:40px 0px;
+}
+
+
+.logo{
+    height:auto;
+}
+
+
+.evblock{
+    display: flex;
+}
+
+
+
+.envelope{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:53px;
+    width:53px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 57px;
+    border: 1px solid #5ec5cc;
+}
+
+.envelope i{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #5ec5cc;
+    font-size: 22px;
+}
+
+
+/* .texnem{
+    margin-left: 8px;
+
+} */
+
+
+.texnem strong{
+    color: black;
+    font-weight: 600;
+}
+
+.pad{
+    margin: 0;
+    padding:0;
+}
+
+
+.app{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 27px;
+    padding: 8px 36px;
+    background: #48bdc5;
+    border: 1px solid #48bdc5;
+    font-family: "Source Sans Pro", sans-serif;
+    transition-duration: 0.25s;
+}
+
+
+.app:hover{
+    background-color: #fff;
+    border-color:#48bdc5;
+    color:#48bdc5;
+}
+
+
+
+
+
+
+/* SECTION NAVIGATION BAR */
+
+
+
+
+
+
+.carousel-indicators button{
+    width:12px!important;
+    height:12px!important;
+    margin-right:8px!important;
+    margin-left:8px!important;
+    border-radius:50%!important;
+}
+
+
+
+
+
+
+.padbetween3{
+    background-color: #48bdc5;
+    padding:8px 0px ;
+}
+
+
+.backclr{
+    background-color: #48bdc5;
+}
+
+
+.menusize{
+    border-color: #cef4f7;
+}
+
+ 
+.yebt i{
+    font-size: 24px;
+    color: #fff;
+}
+
+
+.textclr{
+    color:#fff;
+}
+
+.active{
+    font-weight:600;
+    text-decoration: underline;
+}
+
+
+.hvrchg:hover .textclr{
+    color: rgba(236, 254, 255, 0.679)
+}
+
+
+
+
+
+
+/* SECTION PAGE TITLE */
+
+
+
+
+
+.padtitle{
+    padding: 80px 0;
+    background-image: url("./Medic_contact_files/3.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.padtitle::before{
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(19, 38, 70, 0.6);
+
+}
+
+
+.title-text1{
+    text-align: center;
+}
+
+
+.title-text1 h1{
+    position: relative;
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+.mainconnect{
+    position: relative;
+    text-align: center;
+}
+
+
+
+.ye1{
+    text-decoration: none;
+    margin-right: 8px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    transition-duration: 0.3s;
+}
+
+.ye1:hover{
+    color: #48bdc5;
+}
+
+
+.ye2{
+    text-decoration: none;
+    margin-right: 8px;
+    color: #48bdc5!important;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+
+}
+
+
+
+
+
+
+/* SECTION CONTACT */
+
+
+
+
+
+.padcontact{
+    padding: 100px 0px;
+}
+
+
+
+.mediadetails{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.iconblock i{
+    color: #48bdc5;
+    font-size: 30px;
+    margin-right: 35px;
+    width: 40px;
+    /* display: block; */
+}
+
+
+.detailbody h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+
+.detailbody p{
+    line-height: 25px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #848484;
+    font-size: 16px;
+}
+
+
+.theone{
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+
+
+.form-control:focus {
+    border-color: #48bdc5;
+    box-shadow:none;
+}
+
+
+.btyne{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 27px;
+    padding: 8px 36px;
+    background: #48bdc5;
+    border: 1px solid #48bdc5;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    transition-duration: all 0.5s ease;
+}
+
+
+
+.btyne:hover{
+    background-color: #fff;
+    color: #48bdc5;
+}
+
+
+
+
+
+
+/* SECTION MAP */
+
+
+
+
+
+
+.padmap{
+    position: relative;
+}
+
+
+
+
+.padmap iframe{
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+
+
+.footer1{
+    padding-top: 85px;
+    padding-bottom: 60px;
+    background-color: #132646;;
+}
+
+
+.footer-logo{
+    padding-bottom: 20px;
+}
+
+
+.docabots{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.docabout p{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ababab;
+}
+
+
+.location-link{
+    padding-top: 10px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.item{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.il{
+    text-decoration: none;
+}
+
+
+.thicc{
+    margin-right: 15px;
+    font-size: 20px;
+    color: #ababab;
+}
+
+
+.social-icons{
+    padding:16px 0px 16px 0px;
+}
+
+
+.social-icons a{
+    text-decoration: none;
+    margin-right: 8px;
+    padding: 12px;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.social-icons a i{
+    color: #48bdc5;
+}
+
+
+.ser{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.list-services{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+.uutr{
+    text-decoration: none;
+}
+
+.uutr p{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ababab;
+    letter-spacing: .5px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.thicc2{
+    margin-right: 15px;
+    font-size: 20px;
+    color: #ababab;
+}
+
+
+.socal-lnks h2{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.itmsz{
+    margin-bottom: 30px;
+}
+
+
+.mdia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ddtr{
+    height: 80px;
+    width: 80px;
+}
+
+
+.mdia-body h5{
+    margin-bottom: 5px;
+}
+
+
+.les{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.mdia p{
+    line-height: 24px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ababab;
+}
+
+
+.footer2{
+    padding: 24px 0px;
+    background: #0d1a2f;
+}
+
+
+
+
+.copyright-text p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ababab;
+    line-height: 26px;
+    margin-bottom: 0px;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+}
+
+
+.copyright-text p a{
+    text-decoration: none;
+    color: #ababab;
+}
+
+
+
+.footer-bottom-link{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+.footer-bottom-link li{
+    margin-left: 32px;
+}
+
+
+.footer-bottom-link li a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 26px;
+    color: #ababab;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1200px){
+
+    .container{
+        padding-left: 96px;
+        padding-right: 96px;
+    }
+
+}
+
+
+
+@media screen and (max-width:576px){
+
+
+    /* FOOTER */
+
+
+    .copyright-text{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    .footer-bottom-link{
+        justify-content: space-around;
+    }
+
+}

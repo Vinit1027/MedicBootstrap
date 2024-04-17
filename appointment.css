@@ -1,0 +1,786 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #777777;
+    line-height: 1.8em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto", sans-serif;
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+
+/* HEADER TOP */
+
+
+
+.padbetween{
+    background: #ffffff;
+    border-bottom: 1px solid #ececec;
+}
+
+
+/* .container{
+    padding-left: 96px;
+    padding-right: 96px;
+} */
+
+
+
+.ophrs h6{
+    margin: 0;
+    padding:0;
+    font-size: 15px;
+    line-height: 26px;
+    color: #777777;
+    font-weight: 400;
+    padding: 14px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.socal a{
+    padding: 8px;
+    border: 1px solid #ececec;
+    transition-duration: 0.25s;
+}
+
+
+.socal i{
+    line-height: 40px;
+    /* margin: -1px; */
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    font-weight: 400;
+    transition-duration: 0.25s;
+    /* border: 1px solid #ececec; */
+}
+
+
+.socal a:hover i{
+    color:#6f42c1;
+
+}
+
+.socal a:hover{
+    border: 1px solid #6f42c1;
+}
+
+
+
+
+
+/* SECTION HEADER UPPER */
+
+
+
+
+
+
+.padbetween2{
+    padding:40px 0px;
+}
+
+
+.logo{
+    height:auto;
+}
+
+
+.evblock{
+    display: flex;
+}
+
+
+
+.envelope{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:53px;
+    width:53px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 57px;
+    border: 1px solid #5ec5cc;
+}
+
+.envelope i{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #5ec5cc;
+    font-size: 22px;
+}
+
+
+/* .texnem{
+    margin-left: 8px;
+
+} */
+
+
+.texnem strong{
+    color: black;
+    font-weight: 600;
+}
+
+.pad{
+    margin: 0;
+    padding:0;
+}
+
+
+.app{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 27px;
+    padding: 8px 36px;
+    background: #48bdc5;
+    border: 1px solid #48bdc5;
+    font-family: "Source Sans Pro", sans-serif;
+    transition-duration: 0.25s;
+}
+
+
+.app:hover{
+    background-color: #fff;
+    border-color:#48bdc5;
+    color:#48bdc5;
+}
+
+
+
+
+
+
+/* SECTION NAVIGATION BAR */
+
+
+
+
+
+
+.carousel-indicators button{
+    width:12px!important;
+    height:12px!important;
+    margin-right:8px!important;
+    margin-left:8px!important;
+    border-radius:50%!important;
+}
+
+
+
+
+
+
+.padbetween3{
+    background-color: #48bdc5;
+    padding:8px 0px ;
+}
+
+
+.backclr{
+    background-color: #48bdc5;
+}
+
+
+.menusize{
+    border-color: #cef4f7;
+}
+
+ 
+.yebt i{
+    font-size: 24px;
+    color: #fff;
+}
+
+
+.textclr{
+    color:#fff;
+}
+
+.active{
+    font-weight:600;
+    text-decoration: underline;
+}
+
+
+.hvrchg:hover .textclr{
+    color: rgba(236, 254, 255, 0.679)
+}
+
+
+
+
+
+
+/* SECTION PAGE TITLE */
+
+
+
+
+
+.padtitle{
+    padding: 80px 0;
+    background-image: url("./Medic_appointment_files/3.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.padtitle::before{
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(19, 38, 70, 0.6);
+
+}
+
+
+.title-text1{
+    text-align: center;
+}
+
+
+.title-text1 h1{
+    position: relative;
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+.mainconnect{
+    position: relative;
+    text-align: center;
+}
+
+
+
+.ye1{
+    text-decoration: none;
+    margin-right: 8px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    transition-duration: 0.3s;
+}
+
+.ye1:hover{
+    color: #48bdc5;
+}
+
+
+.ye2{
+    text-decoration: none;
+    margin-right: 8px;
+    color: #48bdc5!important;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+
+}
+
+
+
+
+
+
+/* SECTION REQUEST */
+
+
+
+
+
+
+.padrequest{
+    padding: 100px 0px;
+}
+
+
+.section-title h3{
+    font-size: 40px;
+    line-height: 50px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.section-title h3 span{
+    color: #222222;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+
+.contact-form{
+    margin-top: 60px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+
+.djent{
+    width: 100%;
+    height: 50px;
+    color: #777777;
+    padding: 10px 25px;
+    background: #f4f4f4;
+    display: block;
+    border: 1px solid #ececec;
+}
+
+.djent-arrow{
+    height: 50px;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ececec;
+    background: #f4f4f4 url("./Medic_Media_files/icon-select.png") right center no-repeat;
+}
+
+
+.lolwa{
+    height: 190px;
+    resize: none;
+    padding-top: 15px;
+    width: 100%;
+    color: #777777;
+    padding: 10px 25px;
+    background: #f4f4f4;
+    display: block;
+    border: 1px solid #ececec;
+}
+
+
+.btn-style-one{
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 27px;
+    padding: 8px 36px;
+    background: #48bdc5;
+    border: 1px solid #48bdc5;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    transition-duration: 0.3s;
+}
+
+
+
+.btn-style-one:hover{
+    background-color: #fff;
+    color: #48bdc5;
+}
+
+
+.app-img-holder{
+    margin-left: 32px;
+}
+
+
+
+.apptmnt{
+    height: auto;
+    width: 100%;
+    border-radius: 14px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+
+
+
+
+
+/* SECTION EXPERTS */
+
+
+
+
+.padbetween9{
+    padding: 100px 0;
+}
+
+
+
+.texnem4 h3{
+    margin:0;
+    font-size: 40px;
+    line-height: 50px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-bottom: 15px
+}
+
+.texnem4 h3 span{
+    font-size: 40px;
+    line-height: 50px;
+    color: #222222;
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+.texnem4 p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.tmember{
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px -5px rgb(0 0 0 / 20%);
+}
+
+
+.dcmember{
+    height: auto;
+    width:100%;
+}
+
+
+.cnt2{
+    background: #fff;
+    padding: 35px 16px;
+}
+
+
+.cnt2 h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #000;
+    position: relative;
+}
+
+
+.cnt2 h4::before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 1px;
+    background: #777777;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.appon{
+    background: #fff;
+    text-transform: uppercase;
+    color: #48bdc5;
+    padding: 10px 25px;
+    border: 1px solid #48bdc5;
+    transition: all .2s ease-in
+}
+
+
+.appon:hover{
+    background-color: #48bdc5;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+
+
+.footer1{
+    padding-top: 85px;
+    padding-bottom: 60px;
+    background-color: #132646;;
+}
+
+
+.footer-logo{
+    padding-bottom: 20px;
+}
+
+
+.docabots{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.docabout p{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ababab;
+}
+
+
+.location-link{
+    padding-top: 10px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.item{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.il{
+    text-decoration: none;
+}
+
+
+.thicc{
+    margin-right: 15px;
+    font-size: 20px;
+    color: #ababab;
+}
+
+
+.social-icons{
+    padding:16px 0px 16px 0px;
+}
+
+
+.social-icons a{
+    text-decoration: none;
+    margin-right: 8px;
+    padding: 12px;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.social-icons a i{
+    color: #48bdc5;
+}
+
+
+.ser{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.list-services{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+.uutr{
+    text-decoration: none;
+}
+
+.uutr p{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ababab;
+    letter-spacing: .5px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.thicc2{
+    margin-right: 15px;
+    font-size: 20px;
+    color: #ababab;
+}
+
+
+.socal-lnks h2{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.itmsz{
+    margin-bottom: 30px;
+}
+
+
+.mdia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ddtr{
+    height: 80px;
+    width: 80px;
+}
+
+
+.mdia-body h5{
+    margin-bottom: 5px;
+}
+
+
+.les{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.mdia p{
+    line-height: 24px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ababab;
+}
+
+
+.footer2{
+    padding: 24px 0px;
+    background: #0d1a2f;
+}
+
+
+
+
+.copyright-text p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ababab;
+    line-height: 26px;
+    margin-bottom: 0px;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+}
+
+
+.copyright-text p a{
+    text-decoration: none;
+    color: #ababab;
+}
+
+
+
+.footer-bottom-link{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+.footer-bottom-link li{
+    margin-left: 32px;
+}
+
+
+.footer-bottom-link li a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 26px;
+    color: #ababab;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1200px){
+
+    .container{
+        padding-left: 96px;
+        padding-right: 96px;
+    }
+
+}
+
+
+
+@media screen and (max-width:576px){
+
+
+    /* FOOTER */
+
+
+    .copyright-text{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    .footer-bottom-link{
+        justify-content: space-around;
+    }
+
+}
